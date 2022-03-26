@@ -17,7 +17,7 @@ choice = str(input(" (y/n):"))
 times = int(input(" Paket :"))
 threads = int(input(" Threads:"))
 def run():
-	data = random._urandom(1000)
+	data = random._urandom(2000)
 	i = random.choice(("[+]","[-]"))
 	while True:
 		try:
